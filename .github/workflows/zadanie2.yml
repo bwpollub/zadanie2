@@ -32,5 +32,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            bwpollub/zadanie2:z2
+            bwpollub/zadanie2:latest-amd64
+            bwpollub/zadanie2:latest-arm64v8
+          platforms: linux/amd64,linux/arm64/v8
           
